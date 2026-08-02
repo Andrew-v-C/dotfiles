@@ -2,7 +2,7 @@
 !.bash_profile
 !.bashrc
 !.config/alacritty
+!.config/git
 !.config/nvim
 !.copilot/copilot-instructions.md
-!.gitconfig
 !.gitignore
