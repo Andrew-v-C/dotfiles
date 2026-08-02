@@ -1,1 +1,5 @@
+!.bashrc
+!.config/alacritty
+!.config/nvim
+!.gitignore
 *
