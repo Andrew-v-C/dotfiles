@@ -1,0 +1,7 @@
+[general]
+import = [
+  "common.toml",
+  "linux.toml",
+  # "windows.toml",
+  "themes/nightfox.toml",
+]

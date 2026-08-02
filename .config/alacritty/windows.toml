@@ -1,0 +1,5 @@
+[terminal]
+shell = { program = "pwsh", args = ["-NoLogo"] }
+
+[font]
+size = 10

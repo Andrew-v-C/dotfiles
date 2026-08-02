@@ -1,0 +1,5 @@
+[terminal]
+shell = { program = "bash", args = [] }
+
+[font]
+size = 11
