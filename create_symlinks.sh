@@ -2,6 +2,7 @@
 
 # Shell (Bash)
 rm ~/.bash_profile
+rm ~/.profile
 rm ~/.bashrc
 ln -s ~/.dotfiles/shell/bash_profile.sh ~/.bash_profile
 ln -s ~/.dotfiles/shell/bashrc.sh ~/.bashrc
@@ -18,3 +19,7 @@ ln -s ~/.dotfiles/alacritty ~/.config/alacritty
 # Neovim
 rm -rf ~/.config/nvim
 ln -s ~/.dotfiles/nvim ~/.config/nvim
+
+# GitHub Copilot
+rm -rf ~/.copilot
+ln -s ~/.dotfiles/copilot ~/.copilot

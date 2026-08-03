@@ -1,0 +1,6 @@
+- Create a Python virtual environment named `.copilot-venv`, in the `~/.copilot` directory, if one doesn't already exist.
+- When using Python tools, always install them within this virtual environment.
+- Interpret the "^" character in a prompt to mean "most recent screenshot" (look in `~/Pictures/Screenshots`)
+- Display math in plain text (not LaTeX format) in chat responses.
+- Use LaTeX for math in Markdown files.
+- Use Tectonic for TeX files.
