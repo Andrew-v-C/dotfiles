@@ -6,6 +6,11 @@ rm ~/.bashrc
 ln -s ~/.dotfiles/shell/bash_profile.sh ~/.bash_profile
 ln -s ~/.dotfiles/shell/bashrc.sh ~/.bashrc
 
+# Git
+rm ~/.gitconfig
+rm -rf ~/.config/git
+ln -s ~/.dotfiles/git ~/.config/git
+
 # Alacritty
 rm -rf ~/.config/alacritty
 ln -s ~/.dotfiles/alacritty ~/.config/alacritty
