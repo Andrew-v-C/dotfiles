@@ -15,8 +15,3 @@ ln -sfn ~/.dotfiles/nvim ~/.config/nvim
 
 # GitHub Copilot
 ln -sfn ~/.dotfiles/copilot ~/.copilot
-
-# Fonts
-for dir in ~/.dotfiles/fonts/*/; do
-    ln -sfn "$dir" ~/.local/share/fonts/$(basename "$dir")
-done
