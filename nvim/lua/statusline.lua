@@ -52,6 +52,8 @@ MyStatusLine = function()
         .. "%## %<%F "  -- File path
         .. "%#WarningMsg#%{&modified ? ' ' : ''}"  -- Show if file was modified
         .. "%##%="  -- Spacing
+        .. "%#OkMsg#%{&spell ? ' ' : ''}"  -- Show if spell check is enabled
+        .. "%##    "  -- Spacing
     local count = vim.diagnostic.count()  -- Diagnostics count
     local signs = vim.diagnostic.config().signs.text
     if count[1] ~= nil then

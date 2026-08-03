@@ -40,7 +40,6 @@ require("nvim-treesitter").install({
     "bash",
     "cmake",
     "markdown",
-    "powershell",
     "python",
     "toml",
 })

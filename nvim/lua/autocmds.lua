@@ -83,9 +83,8 @@ vim.api.nvim_create_autocmd("BufWritePost", {
             -- Format Python files using Ruff
             vim.cmd("silent !ruff format %:p")
         elseif ftype == "toml" then
-            -- Format TOML files using Taplo (forward slashes required in path)
-            local path = vim.fn.expand("%:p"):gsub("\\", "/")
-            vim.cmd("silent !taplo fmt " .. path)
+            -- Format TOML files using Taplo
+            vim.cmd("silent !taplo fmt %:p")
         end
     end,
 })
